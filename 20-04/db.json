@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "views": 500,
+      "id": "3e80"
+    },
+    {
+      "id": "f281",
+      "title": "my first post",
+      "views": 500
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": "1",
+      "name": "Gülali Çelik",
+      "profile_picture": "https://avatars.githubusercontent.com/u/77464040?v=4"
+    },
+    {
+      "id": "2",
+      "name": "Mehmetcan Güvercin",
+      "profile_picture": "https://avatars.githubusercontent.com/u/77464040?v=4"
+    }
+
+  ]
+}
