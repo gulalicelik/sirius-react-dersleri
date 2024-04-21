@@ -1,0 +1,27 @@
+{
+  "subscription_packages": [
+    {
+      "id": "1",
+      "title": "Ice Mobile 10GB",
+      "description": "Up to 100Mbit/s",
+      "price" : 299,
+      "image_path": "/Users/gulalicelik/unity-verse/sirius/sirius-react-dersleri/21-04/public/images/svg/ice.svg"
+    },
+    {
+      "id": "2",
+      "title": "Telia Mobil 15GB",
+      "description": "Unlimited calls, SMS and MMS",
+      "price" : 953,
+      "image_path": "/Users/gulalicelik/unity-verse/sirius/sirius-react-dersleri/21-04/public/images/svg/telia.svg"
+
+    },
+    {
+      "id": "3",
+      "title": "Telenor Next Fast",
+      "description": "Up to 100Mbit/s",
+      "price" : 1028,
+      "image_path": "/Users/gulalicelik/unity-verse/sirius/sirius-react-dersleri/21-04/public/images/svg/telenor.svg"
+
+    }
+  ]
+}
