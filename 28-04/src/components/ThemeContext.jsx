@@ -8,7 +8,8 @@ export const ThemeProvider = ({ children }) => {
 
     const toggleTheme = () => {
         setTheme(theme === 'light' ? 'dark' : 'light');
-        document.body.style.backgroundColor = theme === 'light' ? 'black' : 'white';
+        console.log('theme:', theme);
+        // document.body.style.backgroundColor = theme === 'light' ? 'black' : 'white';
     };
 
     return (

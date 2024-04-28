@@ -1,13 +1,12 @@
-import {useState} from "react";
+import {useContext} from "react";
+import {CartContext} from "./CartContext.jsx";
 
-const CartHeaderIcon = (props) => {
-    // eslint-disable-next-line react/prop-types
-    const {count} = props;
-    // const [cartCount, setCartCount] = useState(0);
+const CartHeaderIcon = () => {
+const {cartAmount} = useContext(CartContext);
+
     return (
         <>
-            <span>Sepet ({count})</span>
-            <CustomCompt count="CartHeaderIcon"/>
+            <span>Sepet ({cartAmount})</span>
         </>
     );
 }

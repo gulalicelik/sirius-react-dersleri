@@ -1,5 +1,9 @@
+import {useContext} from "react";
+import {CartContext} from "./CartContext.jsx";
+
 const ProductCard = () =>{
 
+    const {incrementCartAmount} = useContext(CartContext);
 
     return(
 
@@ -13,7 +17,9 @@ const ProductCard = () =>{
                 <h2>Product Name</h2>
                 <p>Product Description</p>
                 <p>Product Price</p>
-                <button className="add-to-cart-btn"> Add to cart</button>
+                <button
+                    onClick={incrementCartAmount}
+                    className="add-to-cart-btn"> Add to cart</button>
             </div>
         </div>
     </div>
